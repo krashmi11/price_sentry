@@ -1,0 +1,59 @@
+/* Dashboard.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    flex: 0 0 250px; /* Sidebar fixed width */
+}
+
+.content {
+    flex: 1;
+    position: relative; /* Ensure relative positioning for absolute positioning of the button */
+}
+
+.image_container {
+    margin-left: 10%; /* Adjust as necessary for spacing */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.responsive_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.button-cont {
+    position: absolute; /* Position the button absolutely within the content container */
+    top: 80%; /* Adjust vertical position as needed */
+    left: calc(25% + 125px); /* Adjust horizontal position based on sidebar width (250px / 2) */
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.track-b {
+    padding: 10px 50px; /* Add padding for a better shape */
+    background-color: #e63946; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: 0.3s; /* Smooth transition */
+}
+
+.track-b:hover {
+    background-color: #9d0208;
+    color: aliceblue; /* Darker shade on hover */
+}

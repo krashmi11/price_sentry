@@ -1,0 +1,48 @@
+.bg-custom {
+    background-color: #463f3a; /* Replace with your desired color */
+  }
+  .nav-link {
+    color: white !important; /* Set the text color to white */
+}
+.navbar-brand {
+    color: white !important; /* Set the text color to white */
+}
+.navbar-nav .nav-dropdown-toggle {
+    color: white !important; /* Ensure dropdown title is also white */
+}
+.navbar-toggler-icon{
+    background-color: white !important;
+    color: black !important;
+}
+.navbar-toggler {
+    border-color: white; /* Change the border color of the toggle button */
+}
+
+.navbar-toggler-icon {
+    background-image: none; /* Remove the default background image */
+    background-color: white; /* Set the background color to white */
+    border: 1px solid black; /* Add a black border if desired */
+    width: 30px; /* Set a width */
+    height: 30px; /* Set a height */
+    position: relative; /* Set position to relative for pseudo elements */
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: black; /* Set the bar color to black */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-toggler-icon::before {
+    top: 10px; /* Adjust the position of the top bar */
+}
+
+.navbar-toggler-icon::after {
+    top: 18px; /* Adjust the position of the bottom bar */
+}

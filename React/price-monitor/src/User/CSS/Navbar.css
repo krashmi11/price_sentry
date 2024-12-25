@@ -1,0 +1,12 @@
+.bg-custom {
+    background-color: #463f3a; /* Replace with your desired color */
+  }
+  .nav-link {
+    color: white !important; /* Set the text color to white */
+}
+.navbar-brand {
+    color: white !important; /* Set the text color to white */
+}
+.navbar-nav .nav-dropdown-toggle {
+    color: white !important; /* Ensure dropdown title is also white */
+}
