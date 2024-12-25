@@ -18,7 +18,7 @@ import google.generativeai as genai
 from fuzzywuzzy import fuzz
 
 # Configure API key
-genai.configure(api_key='AIzaSyAnBa1CJgzax9-ybjU_5AQoBJiAAC4P8D4')
+genai.configure(api_key='')
 
 
 load_dotenv()
